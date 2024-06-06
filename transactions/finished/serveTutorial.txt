@@ -1,0 +1,24 @@
+server side of things - Backend server
+
+server.js brings up express server and reads all the routes which are in route folder
+server/routes
+
+routes/
+banks -> all banks connected and returns them
+debug - for debugging urpose - not for prod
+token - deals with handling plaid tokens - new link token/ exchange token etc
+transactions - holds dummy for now -- refactor later
+users.js -> it is setting a cookie wth username which looks like a security issue - set it up with pin or some other security
+
+
+
+db - has DB lvl scripts - anything that interacts with DB
+server.js - plaid server side client
+utils - utility functions -currently has a function to get sign in user from the cookie value
+
+webhook server - spins up a separate webhook server on port 8001 which will keep listening to webhook api calls and handle all the
+webhook related functionalities.
+
+
+
+

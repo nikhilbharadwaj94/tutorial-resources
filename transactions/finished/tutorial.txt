@@ -1,0 +1,13 @@
+most of the functionalities are in the js folder
+
+public folder is like frontend server
+view is in public folder -- currently only index.html
+
+public/js folder has all functionalities
+- client.js -> client facing code - what banks are connected, what actions can be taken etc
+- link.js -> handles the token flow - authToken/publictoken/exchangetoken etc
+- signin - sign in flow
+- utils - utility functions like call server / fetch data from DB/ store shit in DB etc
+
+
+
